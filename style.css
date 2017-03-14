@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+}
+.color {
+  color: darkred;
+}
+.align {
+  text-align: center;
+}
+.border {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  background-color: red;
+  border-style: solid;
+}
+.color_in_div {
+  color: white;
+}
+h1 {
+  font-family: "Georgia";
+}
+h2 {
+  font-family: "Verdana";
+}
+h3 {
+  font-family: "Arial"
+}

@@ -2,11 +2,12 @@
 <!-- Author: Chad Wilson -->
 <html>
   <head>
-    <title>Intelligence Test</title>
+    <title>Intelligence Test Q1</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
   </head>
-  <body>
+  <body lang="en-US">
     <h1 class="color align">Intelligence Test</h1>
     <h2 class="color align">Question 1</h2>
     <h3 class="color align">P = 1</h3>
@@ -20,6 +21,32 @@
       <div class="border">
         <h3 class="color_in_div align">P + Q - S = 3</h3>
       </div>
+      <div class="border">
+        <h3 class="color_in_div align">S + Q + P - T = 6</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">P + T + W = 9</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">S + W - T * R + P = ?</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">Your answer:</h3>
+        <input type="text" id="Q1input" class="input_text_align"
+        oninput="Q1_validation();">
+        <br>
+        <div class="div_span_align">
+        <span id="Q1AnswerError" class="color_in_div">
+          Error Placeholder (hidden)
+        </span>
+        <span id="Q1AnswerCorrect" class="color_in_div">
+          Correct!
+        </span>
+        </div>
+      </div>
     </nav>
+    <br>
+    <input type="button" class="input_button_align" value="Continue" id="Q1_button"
+    onclick="Q1_button_clicked();">
   </body>
 </html>

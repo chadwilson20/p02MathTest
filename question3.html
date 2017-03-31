@@ -4,7 +4,51 @@
   <head>
     <title>Intelligence Test</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
   </head>
-  <body>
+  <body lang="en-US">
+    <h1 class="color align">Intelligence Test</h1>
+    <h2 class="color align">Question 3</h2>
+    <nav>
+      <div class="border">
+        <h2 class="color_in_div align">Solve this riddle:</h2>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">3 + 8 = 33</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">5 + 2 = 35</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">4 + 8 = 48</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">7 + 6 = 91</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">8 + 2 = 80</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">5 + 5 = ?</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">Your answer:</h3>
+        <input type="text" id="Q3input" class="input_text_align"
+        oninput="Q3_validation();">
+        <br>
+        <div class="div_span_align">
+        <span id="Q3AnswerError" class="color_in_div">
+          Error Placeholder (hidden)
+        </span>
+        <span id="Q3AnswerCorrect" class="color_in_div">
+          Correct!
+        </span>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <input type="button" class="input_button_align" value="Continue"
+    onclick="Q3_button_clicked();">
   </body>
 </html>

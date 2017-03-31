@@ -26,3 +26,24 @@ h2 {
 h3 {
   font-family: "Arial"
 }
+.input_text_align {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+}
+.input_button_align {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 150px;
+}
+span {
+  display: none;
+  position: relative;
+}
+.div_span_align {
+  text-align: center;
+}

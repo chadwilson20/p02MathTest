@@ -2,9 +2,53 @@
 <!-- Author: Chad Wilson -->
 <html>
   <head>
-    <title>Intelligence Test</title>
+    <title>Intelligence Test Q2</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
   </head>
-  <body>
+  <body lang="en-US">
+    <h1 class="color align">Intelligence Test</h1>
+    <h2 class="color align">Question 2</h2>
+    <nav>
+      <div class="border">
+        <h2 class="color_in_div align">If:</h2>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">2 = 4</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">3 = 12</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">4 = 24</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">5 = 40</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">6 = 60</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">then 7 = ?</h3>
+      </div>
+      <div class="border">
+        <h3 class="color_in_div align">Your answer:</h3>
+        <input type="text" id="Q2input" class="input_text_align"
+        oninput="Q2_validation();">
+        <br>
+        <div class="div_span_align">
+        <span id="Q2AnswerError" class="color_in_div">
+          Error Placeholder (hidden)
+        </span>
+        <span id="Q2AnswerCorrect" class="color_in_div">
+          Correct!
+        </span>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <input type="button" class="input_button_align" value="Continue"
+    onclick="Q2_button_clicked();">
   </body>
 </html>

@@ -1,3 +1,4 @@
+// Author: Chad Wilson
 function Q1_validation()
 {
   var answer = document.getElementById("Q1input").value;
